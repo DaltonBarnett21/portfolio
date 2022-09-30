@@ -14,12 +14,12 @@ const Contact = (props: Props) => {
   const { register, handleSubmit } = useForm<Inputs>();
   const onSubmit: SubmitHandler<Inputs> = (formData) => console.log(formData);
   return (
-    <div className="h-screen  flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center  ">
+    <div className="h-screen pb-36  flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center  ">
       <h3 className="absolute top-0 uppercase teacking-[20px] text-gray-400 text-2xl">
         Contact
       </h3>
       <div className="flex flex-col space-y-10 ">
-        <h4 className="text-4xl font-semibold text-center mt-20">
+        <h4 className="text-4xl font-semibold text-center mt-44">
           I have the skillz you need.
         </h4>
         <h4 className="text-4xl font-semibold text-center">Get in touch!</h4>
