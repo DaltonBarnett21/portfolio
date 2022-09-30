@@ -44,7 +44,7 @@ const Home: NextPage = () => {
         <Projects />
       </section>
 
-      <section id="contact" className=" snap-end">
+      <section id="contact" className="snap-center ">
         <Contact />
       </section>
     </div>
