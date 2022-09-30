@@ -16,7 +16,7 @@ const Experience = (props: Props) => {
         Experience
       </h3>
       <div className="w-full mt-24 flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory">
-        <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center p-10 bg-zinc-800 hover:opacity-100 opacity-60 cursor-pointer transition-opacity duration-200 overflow-hidden">
+        <article className="flex flex-col h-[600px] rounded-lg items-center space-y-7 flex-shrink-0 w-[350px] md:w-[600px] xl:w-[900px] snap-center p-10 bg-zinc-800 hover:opacity-100 opacity-60 cursor-pointer transition-opacity duration-200 overflow-hidden">
           <motion.img
             initial={{ y: -100, opacity: 0 }}
             transition={{ duration: 1.2 }}
@@ -67,7 +67,7 @@ const Experience = (props: Props) => {
             </ul>
           </div>
         </article>
-        <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center p-10 bg-zinc-800 hover:opacity-100 opacity-60 cursor-pointer transition-opacity duration-200 overflow-hidden">
+        <article className="flex flex-col h-[1000px] rounded-lg items-center space-y-7 flex-shrink-0 w-[350px] md:w-[600px] xl:w-[900px] snap-center p-10 bg-zinc-800 hover:opacity-100 opacity-60 cursor-pointer transition-opacity duration-200 overflow-hidden">
           <motion.img
             initial={{ y: -100, opacity: 0 }}
             transition={{ duration: 1.2 }}

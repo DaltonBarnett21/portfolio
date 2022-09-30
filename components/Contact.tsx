@@ -14,12 +14,12 @@ const Contact = (props: Props) => {
   const { register, handleSubmit } = useForm<Inputs>();
   const onSubmit: SubmitHandler<Inputs> = (formData) => console.log(formData);
   return (
-    <div className="h-screen flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center  ">
-      <h3 className="absolute top-12 uppercase teacking-[20px] text-gray-400 text-2xl">
+    <div className="h-screen  flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center  ">
+      <h3 className="absolute top-0 uppercase teacking-[20px] text-gray-400 text-2xl">
         Contact
       </h3>
-      <div className="flex flex-col space-y-10">
-        <h4 className="text-4xl font-semibold text-center">
+      <div className="flex flex-col space-y-10 ">
+        <h4 className="text-4xl font-semibold text-center mt-20">
           I have the skillz you need.
         </h4>
         <h4 className="text-4xl font-semibold text-center">Get in touch!</h4>
@@ -36,19 +36,19 @@ const Contact = (props: Props) => {
         </div>
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="flex flex-col space-y-2 w-fit mx-auto"
+          className="flex flex-col space-y-2"
         >
-          <div className="flex space-x-2">
+          <div className="flex flex-col md:flex-row space-x-2 ">
             <input
               {...register("name")}
               placeholder="Name"
-              className="contactInput"
+              className="contactInput mb-2 lg:mb-0 "
               type="text"
             />
             <input
               {...register("email")}
               placeholder="Email"
-              className="contactInput"
+              className="contactInput "
               type="email"
             />
           </div>
